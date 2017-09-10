@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["errors","Error management module"],["events","A module to handle `Event` enumerator"],["reader","A module to handle `Reader`"],["writer","A module to handle `Writer`"]]});

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `DublinCoreExtension` struct in crate `rss`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, DublinCoreExtension">
+
+    <title>rss::extension::dublincore::DublinCoreExtension - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc struct">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Struct DublinCoreExtension</p><div class="block items"><ul><li><a href="#methods">Methods</a></li><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='../../index.html'>rss</a>::<wbr><a href='../index.html'>extension</a>::<wbr><a href='index.html'>dublincore</a></p><script>window.sidebarCurrent = {name: 'DublinCoreExtension', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../../index.html'>rss</a>::<wbr><a href='../index.html'>extension</a>::<wbr><a href='index.html'>dublincore</a>::<wbr><a class="struct" href=''>DublinCoreExtension</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#25-57' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct DublinCoreExtension { /* fields omitted */ }</pre><div class='docblock'><p>A Dublin Core element extension.</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><span class='in-band'><code>impl <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#59-334' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.contributors' class="method"><span id='contributors.v' class='invisible'><code>fn <a href='#method.contributors' class='fnname'>contributors</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the contributors to the resource.</p>
+</div><h4 id='method.contributors_mut' class="method"><span id='contributors_mut.v' class='invisible'><code>fn <a href='#method.contributors_mut' class='fnname'>contributors_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the contributors to the resource.</p>
+</div><h4 id='method.set_contributors' class="method"><span id='set_contributors.v' class='invisible'><code>fn <a href='#method.set_contributors' class='fnname'>set_contributors</a>&lt;V&gt;(&amp;mut self, contributors: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the contributors to the resource.</p>
+</div><h4 id='method.coverages' class="method"><span id='coverages.v' class='invisible'><code>fn <a href='#method.coverages' class='fnname'>coverages</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the spatial or temporal topics of the resource, the spatial applicabilities of the
+resource, or the jurisdictions under which the resource is relevant.</p>
+</div><h4 id='method.coverages_mut' class="method"><span id='coverages_mut.v' class='invisible'><code>fn <a href='#method.coverages_mut' class='fnname'>coverages_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the spatial or temporal topics of the resource, the spatial
+applicabilities of the resource, or the jurisdictions under which the resource is relevant.</p>
+</div><h4 id='method.set_coverages' class="method"><span id='set_coverages.v' class='invisible'><code>fn <a href='#method.set_coverages' class='fnname'>set_coverages</a>&lt;V&gt;(&amp;mut self, coverages: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the spatial or temporal topics of the resource, the spatial applicabilities of the
+resource, or the jurisdictions under which the resource is relevant.</p>
+</div><h4 id='method.creators' class="method"><span id='creators.v' class='invisible'><code>fn <a href='#method.creators' class='fnname'>creators</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the creators of the resource.</p>
+</div><h4 id='method.creators_mut' class="method"><span id='creators_mut.v' class='invisible'><code>fn <a href='#method.creators_mut' class='fnname'>creators_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the creators of the resource.</p>
+</div><h4 id='method.set_creators' class="method"><span id='set_creators.v' class='invisible'><code>fn <a href='#method.set_creators' class='fnname'>set_creators</a>&lt;V&gt;(&amp;mut self, creators: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the creators of the resource.</p>
+</div><h4 id='method.dates' class="method"><span id='dates.v' class='invisible'><code>fn <a href='#method.dates' class='fnname'>dates</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the times associated with the resource.</p>
+</div><h4 id='method.dates_mut' class="method"><span id='dates_mut.v' class='invisible'><code>fn <a href='#method.dates_mut' class='fnname'>dates_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the times associated with the resource.</p>
+</div><h4 id='method.set_dates' class="method"><span id='set_dates.v' class='invisible'><code>fn <a href='#method.set_dates' class='fnname'>set_dates</a>&lt;V&gt;(&amp;mut self, dates: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the times associated with the resource.</p>
+</div><h4 id='method.descriptions' class="method"><span id='descriptions.v' class='invisible'><code>fn <a href='#method.descriptions' class='fnname'>descriptions</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the descriptions of the resource.</p>
+</div><h4 id='method.descriptions_mut' class="method"><span id='descriptions_mut.v' class='invisible'><code>fn <a href='#method.descriptions_mut' class='fnname'>descriptions_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the descriptions of the resource.</p>
+</div><h4 id='method.set_descriptions' class="method"><span id='set_descriptions.v' class='invisible'><code>fn <a href='#method.set_descriptions' class='fnname'>set_descriptions</a>&lt;V&gt;(&amp;mut self, descriptions: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the descriptions of the resource.</p>
+</div><h4 id='method.formats' class="method"><span id='formats.v' class='invisible'><code>fn <a href='#method.formats' class='fnname'>formats</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the file formats, physical mediums, or dimensions of the resource.</p>
+</div><h4 id='method.formats_mut' class="method"><span id='formats_mut.v' class='invisible'><code>fn <a href='#method.formats_mut' class='fnname'>formats_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the file formats, physical mediums, or
+dimensions of the resource.</p>
+</div><h4 id='method.set_formats' class="method"><span id='set_formats.v' class='invisible'><code>fn <a href='#method.set_formats' class='fnname'>set_formats</a>&lt;V&gt;(&amp;mut self, formats: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the file formats, physical mediums, or dimensions of the resource.</p>
+</div><h4 id='method.identifiers' class="method"><span id='identifiers.v' class='invisible'><code>fn <a href='#method.identifiers' class='fnname'>identifiers</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the identifiers of the resource.</p>
+</div><h4 id='method.identifiers_mut' class="method"><span id='identifiers_mut.v' class='invisible'><code>fn <a href='#method.identifiers_mut' class='fnname'>identifiers_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the identifiers of the resource.</p>
+</div><h4 id='method.set_identifiers' class="method"><span id='set_identifiers.v' class='invisible'><code>fn <a href='#method.set_identifiers' class='fnname'>set_identifiers</a>&lt;V&gt;(&amp;mut self, identifiers: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the identifiers of the resource.</p>
+</div><h4 id='method.languages' class="method"><span id='languages.v' class='invisible'><code>fn <a href='#method.languages' class='fnname'>languages</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the languages of the resource.</p>
+</div><h4 id='method.languages_mut' class="method"><span id='languages_mut.v' class='invisible'><code>fn <a href='#method.languages_mut' class='fnname'>languages_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the languages of the resource.</p>
+</div><h4 id='method.set_languages' class="method"><span id='set_languages.v' class='invisible'><code>fn <a href='#method.set_languages' class='fnname'>set_languages</a>&lt;V&gt;(&amp;mut self, languages: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the languages of the resource.</p>
+</div><h4 id='method.publishers' class="method"><span id='publishers.v' class='invisible'><code>fn <a href='#method.publishers' class='fnname'>publishers</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the publishers of the resource.</p>
+</div><h4 id='method.publishers_mut' class="method"><span id='publishers_mut.v' class='invisible'><code>fn <a href='#method.publishers_mut' class='fnname'>publishers_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the publishers of the resource.</p>
+</div><h4 id='method.set_publishers' class="method"><span id='set_publishers.v' class='invisible'><code>fn <a href='#method.set_publishers' class='fnname'>set_publishers</a>&lt;V&gt;(&amp;mut self, publishers: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the publishers of the resource.</p>
+</div><h4 id='method.relations' class="method"><span id='relations.v' class='invisible'><code>fn <a href='#method.relations' class='fnname'>relations</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the related resources.</p>
+</div><h4 id='method.relations_mut' class="method"><span id='relations_mut.v' class='invisible'><code>fn <a href='#method.relations_mut' class='fnname'>relations_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the related resources.</p>
+</div><h4 id='method.set_relations' class="method"><span id='set_relations.v' class='invisible'><code>fn <a href='#method.set_relations' class='fnname'>set_relations</a>&lt;V&gt;(&amp;mut self, relations: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the related resources.</p>
+</div><h4 id='method.rights' class="method"><span id='rights.v' class='invisible'><code>fn <a href='#method.rights' class='fnname'>rights</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the information about rights held in and over the resource.</p>
+</div><h4 id='method.rights_mut' class="method"><span id='rights_mut.v' class='invisible'><code>fn <a href='#method.rights_mut' class='fnname'>rights_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the information about rights held in and over
+the resource.</p>
+</div><h4 id='method.set_rights' class="method"><span id='set_rights.v' class='invisible'><code>fn <a href='#method.set_rights' class='fnname'>set_rights</a>&lt;V&gt;(&amp;mut self, rights: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the information about rights held in and over the resource.</p>
+</div><h4 id='method.sources' class="method"><span id='sources.v' class='invisible'><code>fn <a href='#method.sources' class='fnname'>sources</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the sources of the resource.</p>
+</div><h4 id='method.sources_mut' class="method"><span id='sources_mut.v' class='invisible'><code>fn <a href='#method.sources_mut' class='fnname'>sources_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the sources of the resource.</p>
+</div><h4 id='method.set_sources' class="method"><span id='set_sources.v' class='invisible'><code>fn <a href='#method.set_sources' class='fnname'>set_sources</a>&lt;V&gt;(&amp;mut self, sources: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the sources of the resource.</p>
+</div><h4 id='method.subjects' class="method"><span id='subjects.v' class='invisible'><code>fn <a href='#method.subjects' class='fnname'>subjects</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the topics of the resource.</p>
+</div><h4 id='method.subjects_mut' class="method"><span id='subjects_mut.v' class='invisible'><code>fn <a href='#method.subjects_mut' class='fnname'>subjects_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the subjects of the resource.</p>
+</div><h4 id='method.set_subjects' class="method"><span id='set_subjects.v' class='invisible'><code>fn <a href='#method.set_subjects' class='fnname'>set_subjects</a>&lt;V&gt;(&amp;mut self, subjects: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the topics of the resource.</p>
+</div><h4 id='method.titles' class="method"><span id='titles.v' class='invisible'><code>fn <a href='#method.titles' class='fnname'>titles</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the titles of the resource.</p>
+</div><h4 id='method.titles_mut' class="method"><span id='titles_mut.v' class='invisible'><code>fn <a href='#method.titles_mut' class='fnname'>titles_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the titles of the resource.</p>
+</div><h4 id='method.set_titles' class="method"><span id='set_titles.v' class='invisible'><code>fn <a href='#method.set_titles' class='fnname'>set_titles</a>&lt;V&gt;(&amp;mut self, titles: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>Set the titles of the resource.</p>
+</div><h4 id='method.types' class="method"><span id='types.v' class='invisible'><code>fn <a href='#method.types' class='fnname'>types</a>(&amp;self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;[</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return the natures or genres of the resource.</p>
+</div><h4 id='method.types_mut' class="method"><span id='types_mut.v' class='invisible'><code>fn <a href='#method.types_mut' class='fnname'>types_mut</a>(&amp;mut self) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">&amp;mut [</a><a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.slice.html">]</a></code></span></h4>
+<div class='docblock'><p>Return a mutable slice of the natures or genres of the resource.</p>
+</div><h4 id='method.set_types' class="method"><span id='set_types.v' class='invisible'><code>fn <a href='#method.set_types' class='fnname'>set_types</a>&lt;V&gt;(&amp;mut self, types: V) <span class="where fmt-newline">where<br>&nbsp;&nbsp;&nbsp;&nbsp;V: <a class="trait" href="https://doc.rust-lang.org/nightly/core/convert/trait.Into.html" title="trait core::convert::Into">Into</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>&gt;&gt;,&nbsp;</span></code></span></h4>
+<div class='docblock'><p>set the natures or genres of the resource.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#336-357' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.from_map' class="method"><span id='from_map.v' class='invisible'><code>fn <a href='#method.from_map' class='fnname'>from_map</a>(map: <a class="struct" href="https://doc.rust-lang.org/nightly/std/collections/hash/map/struct.HashMap.html" title="struct std::collections::hash::map::HashMap">HashMap</a>&lt;<a class="struct" href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html" title="struct alloc::string::String">String</a>, <a class="struct" href="https://doc.rust-lang.org/nightly/alloc/vec/struct.Vec.html" title="struct alloc::vec::Vec">Vec</a>&lt;<a class="struct" href="../../../rss/extension/struct.Extension.html" title="struct rss::extension::Extension">Extension</a>&gt;&gt;) -&gt; Self</code></span></h4>
+<div class='docblock'><p>Creates a <code>DublinCoreExtension</code> using the specified <code>HashMap</code>.</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a> for <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#23' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, __arg_0: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter.</p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#23' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.default' class="method"><span id='default.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/default/trait.Default.html#tymethod.default' class='fnname'>default</a>() -&gt; <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span></h4>
+<div class='docblock'><p>Returns the &quot;default value&quot; for a type. <a href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html#tymethod.default">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html" title="trait core::clone::Clone">Clone</a> for <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#23' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.clone' class="method"><span id='clone.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span></h4>
+<div class='docblock'><p>Returns a copy of the value. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">Read more</a></p>
+</div><h4 id='method.clone_from' class="method"><span id='clone_from.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code><div class='since' title='Stable since Rust version 1.0.0'>1.0.0</div></span></h4>
+<div class='docblock'><p>Performs copy-assignment from <code>source</code>. <a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from">Read more</a></p>
+</div></div><h3 class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../../src/rss/extension/dublincore.rs.html#23' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.eq' class="method"><span id='eq.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq' class='fnname'>eq</a>(&amp;self, __arg_0: &amp;<a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span></h4>
+<div class='docblock'><p>This method tests for <code>self</code> and <code>other</code> values to be equal, and is used by <code>==</code>. <a href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq">Read more</a></p>
+</div><h4 id='method.ne' class="method"><span id='ne.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#method.ne' class='fnname'>ne</a>(&amp;self, __arg_0: &amp;<a class="struct" href="../../../rss/extension/dublincore/struct.DublinCoreExtension.html" title="struct rss::extension::dublincore::DublinCoreExtension">DublinCoreExtension</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span></h4>
+<div class='docblock'><p>This method tests for <code>!=</code>.</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../../";
+        window.currentCrate = "rss";
+    </script>
+    <script src="../../../main.js"></script>
+    <script defer src="../../../search-index.js"></script>
+</body>
+</html>
